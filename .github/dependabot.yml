@@ -1,0 +1,86 @@
+version: 2
+updates:
+- package-ecosystem: composer
+  directory: "/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: composer
+  directory: "/integration/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: npm
+  directory: "/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: bundler
+  directory: "/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: pip
+  directory: "/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: "/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: gradle
+  directory: "/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: gomod
+  directory: "/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: npm
+  directory: "/integration/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: bundler
+  directory: "/integration/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: pip
+  directory: "/integration/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: "/integration/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: gradle
+  directory: "/integration/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: gomod
+  directory: "/integration/examples"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
